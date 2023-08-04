@@ -1,0 +1,1952 @@
+[
+  {
+    "project": [
+      {
+        "id": "1102fd03-3168-47fe-a2d7-a8758a69fa96",
+        "name": "Project A",
+        "description": "A web development project",
+        "created_at": "2023-08-03T22:07:07.691Z",
+        "updated_at": "2023-08-03T15:36:24.480Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3cf447fd-cfe9-4625-9fd4-d1e67589e9fc",
+        "name": "Project B",
+        "description": "An app development project",
+        "created_at": "2023-08-04T04:41:35.670Z",
+        "updated_at": "2023-08-04T05:32:01.687Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "549202c9-aa9f-486f-9373-bb0873eefdb4",
+        "name": "Project C",
+        "description": "A marketing campaign project",
+        "created_at": "2023-08-03T18:56:29.867Z",
+        "updated_at": "2023-08-03T07:25:00.643Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a7b9ddc5-b786-48d6-87c0-225e53f5c0b6",
+        "name": "Project D",
+        "description": "A research project",
+        "created_at": "2023-08-03T06:26:41.166Z",
+        "updated_at": "2023-08-04T02:42:23.206Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6c16b2f8-6eb2-4cb4-9903-301a58c087fa",
+        "name": "Project E",
+        "description": "A construction project",
+        "created_at": "2023-08-03T17:35:55.035Z",
+        "updated_at": "2023-08-03T22:35:10.646Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "0771cafc-16bf-4b85-926f-adf5bcc2f9fc",
+        "name": "Job A",
+        "description": "A software engineering job",
+        "created_at": "2023-08-04T03:21:04.286Z",
+        "updated_at": "2023-08-03T19:12:47.759Z",
+        "project_id": "a7b9ddc5-b786-48d6-87c0-225e53f5c0b6",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "4b3b1424-75dc-451c-8680-a46f90619cfb",
+        "name": "Job B",
+        "description": "A sales job",
+        "created_at": "2023-08-04T02:59:09.072Z",
+        "updated_at": "2023-08-04T03:56:35.366Z",
+        "project_id": "549202c9-aa9f-486f-9373-bb0873eefdb4",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "9c9b0fb8-9568-4c06-bbd7-5287c06eb0a7",
+        "name": "Job C",
+        "description": "A marketing job",
+        "created_at": "2023-08-03T16:35:50.314Z",
+        "updated_at": "2023-08-03T18:10:41.413Z",
+        "project_id": "a7b9ddc5-b786-48d6-87c0-225e53f5c0b6",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "dfcd79eb-d0ee-4c50-b922-00ffac017bbd",
+        "name": "Job D",
+        "description": "A project management job",
+        "created_at": "2023-08-03T23:14:25.991Z",
+        "updated_at": "2023-08-04T05:18:30.249Z",
+        "project_id": "549202c9-aa9f-486f-9373-bb0873eefdb4",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "75676807-7096-48dd-82c9-664f289d07b2",
+        "name": "Job E",
+        "description": "A customer support job",
+        "created_at": "2023-08-04T00:34:48.500Z",
+        "updated_at": "2023-08-03T22:15:48.396Z",
+        "project_id": "a7b9ddc5-b786-48d6-87c0-225e53f5c0b6",
+        "technician_id": "user_entity_pk"
+      }
+    ],
+    "fieldwork_data": [
+      {
+        "id": "892e7b20-429b-4a33-9e2c-105e81430861",
+        "coordinates": "40.7128° N, 74.0060° W",
+        "elevation": 21751,
+        "soil_profile": "Sandy soil with high drainage",
+        "penetrometer_results": 45929,
+        "created_at": "2023-08-03T16:46:58.519Z",
+        "updated_at": "2023-08-03T11:32:53.468Z",
+        "job_id": "4b3b1424-75dc-451c-8680-a46f90619cfb"
+      },
+      {
+        "id": "f299c120-6b3b-4931-b37b-83a364ba3abb",
+        "coordinates": "51.5074° N, 0.1278° W",
+        "elevation": 55908,
+        "soil_profile": "Clay soil with moderate drainage",
+        "penetrometer_results": 32983,
+        "created_at": "2023-08-03T18:55:13.674Z",
+        "updated_at": "2023-08-03T19:38:35.579Z",
+        "job_id": "75676807-7096-48dd-82c9-664f289d07b2"
+      },
+      {
+        "id": "e90d76f3-1cee-4254-ad95-b116b877cfd1",
+        "coordinates": "48.8566° N, 2.3522° E",
+        "elevation": 72300,
+        "soil_profile": "Loamy soil with good fertility",
+        "penetrometer_results": 78069,
+        "created_at": "2023-08-03T08:29:35.528Z",
+        "updated_at": "2023-08-04T00:42:33.316Z",
+        "job_id": "4b3b1424-75dc-451c-8680-a46f90619cfb"
+      },
+      {
+        "id": "0c90ed77-648e-41d0-9dcb-4a2bfc5093c0",
+        "coordinates": "34.0522° N, 118.2437° W",
+        "elevation": 78827,
+        "soil_profile": "Peaty soil with high organic matter",
+        "penetrometer_results": 14150,
+        "created_at": "2023-08-03T23:04:16.762Z",
+        "updated_at": "2023-08-03T19:13:33.839Z",
+        "job_id": "75676807-7096-48dd-82c9-664f289d07b2"
+      },
+      {
+        "id": "0ea2fbca-d2c6-4908-8a6f-8a0535081b58",
+        "coordinates": "37.7749° N, 122.4194° W",
+        "elevation": 7496,
+        "soil_profile": "Silty soil with moderate fertility",
+        "penetrometer_results": 41437,
+        "created_at": "2023-08-03T22:39:55.855Z",
+        "updated_at": "2023-08-03T07:56:23.883Z",
+        "job_id": "4b3b1424-75dc-451c-8680-a46f90619cfb"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "460cecd2-7606-4e9e-828b-22423131ecb1",
+        "amount": 99212,
+        "status": "Paid",
+        "created_at": "2023-08-04T03:33:05.679Z",
+        "updated_at": "2023-08-04T02:14:26.624Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "23bd1c90-109e-4b72-8f11-0576d56ffa65",
+        "amount": 76591,
+        "status": "Pending",
+        "created_at": "2023-08-03T12:59:07.605Z",
+        "updated_at": "2023-08-03T06:42:23.522Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "9df64488-15df-4ff5-8dd0-c2f65997c561",
+        "amount": 89758,
+        "status": "Overdue",
+        "created_at": "2023-08-03T08:51:56.486Z",
+        "updated_at": "2023-08-03T11:13:19.119Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "130ce71f-301b-46ce-a5a4-c6466086c5c1",
+        "amount": 58943,
+        "status": "Cancelled",
+        "created_at": "2023-08-03T13:34:14.328Z",
+        "updated_at": "2023-08-03T16:32:12.137Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "8420bf97-4580-4ce4-b021-47fb117a4b2b",
+        "amount": 69169,
+        "status": "Refunded",
+        "created_at": "2023-08-04T02:06:32.343Z",
+        "updated_at": "2023-08-03T06:53:58.656Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "ed2e89a8-d28c-46bf-8aed-c3d4905cde4b",
+        "name": "Project A",
+        "description": "A web development project",
+        "created_at": "2023-08-03T17:58:43.601Z",
+        "updated_at": "2023-08-03T16:14:02.284Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b9c18d30-0df1-483c-b618-6a5731753d49",
+        "name": "Project B",
+        "description": "An app development project",
+        "created_at": "2023-08-03T12:07:45.108Z",
+        "updated_at": "2023-08-03T07:26:33.882Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9a41f161-9979-4cea-8565-f732d287c138",
+        "name": "Project C",
+        "description": "A marketing campaign project",
+        "created_at": "2023-08-03T13:20:05.502Z",
+        "updated_at": "2023-08-03T19:01:14.120Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "edcb049e-c199-4b47-bfc3-565934426c79",
+        "name": "Project D",
+        "description": "A research project",
+        "created_at": "2023-08-04T03:52:29.641Z",
+        "updated_at": "2023-08-03T20:48:20.570Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1f15e9a2-5d4e-40ce-81d7-2de4983558a5",
+        "name": "Project E",
+        "description": "A construction project",
+        "created_at": "2023-08-04T02:10:25.755Z",
+        "updated_at": "2023-08-03T13:41:07.362Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "18382b49-8586-4251-87ab-7ae43141fed6",
+        "name": "Job A",
+        "description": "A software engineering job",
+        "created_at": "2023-08-03T11:57:13.203Z",
+        "updated_at": "2023-08-03T23:39:21.336Z",
+        "project_id": "1f15e9a2-5d4e-40ce-81d7-2de4983558a5",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "c4279451-dfed-4729-8051-10dde507d9c1",
+        "name": "Job B",
+        "description": "A sales job",
+        "created_at": "2023-08-03T06:21:45.401Z",
+        "updated_at": "2023-08-03T18:26:28.186Z",
+        "project_id": "9a41f161-9979-4cea-8565-f732d287c138",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "90f005a2-2aa9-45d5-ae2f-a8c2117de08f",
+        "name": "Job C",
+        "description": "A marketing job",
+        "created_at": "2023-08-03T08:28:06.057Z",
+        "updated_at": "2023-08-03T14:20:04.536Z",
+        "project_id": "b9c18d30-0df1-483c-b618-6a5731753d49",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "91e0a4c0-2128-4e44-b3ba-e69ddb1a5bc0",
+        "name": "Job D",
+        "description": "A project management job",
+        "created_at": "2023-08-03T14:03:24.439Z",
+        "updated_at": "2023-08-03T20:03:17.293Z",
+        "project_id": "b9c18d30-0df1-483c-b618-6a5731753d49",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "00bede09-2349-414e-bbbb-f7a743ea82c9",
+        "name": "Job E",
+        "description": "A customer support job",
+        "created_at": "2023-08-03T08:51:25.606Z",
+        "updated_at": "2023-08-03T18:18:26.482Z",
+        "project_id": "ed2e89a8-d28c-46bf-8aed-c3d4905cde4b",
+        "technician_id": "user_entity_pk"
+      }
+    ],
+    "fieldwork_data": [
+      {
+        "id": "2140a66c-09e9-4966-92ec-e28f04f762d5",
+        "coordinates": "40.7128° N, 74.0060° W",
+        "elevation": 95036,
+        "soil_profile": "Sandy soil with high drainage",
+        "penetrometer_results": 57741,
+        "created_at": "2023-08-03T20:49:57.678Z",
+        "updated_at": "2023-08-03T12:54:38.864Z",
+        "job_id": "90f005a2-2aa9-45d5-ae2f-a8c2117de08f"
+      },
+      {
+        "id": "9ee62686-3f27-4877-9369-2d585b1f8062",
+        "coordinates": "51.5074° N, 0.1278° W",
+        "elevation": 14695,
+        "soil_profile": "Clay soil with moderate drainage",
+        "penetrometer_results": 47151,
+        "created_at": "2023-08-03T08:03:23.614Z",
+        "updated_at": "2023-08-03T23:36:54.234Z",
+        "job_id": "90f005a2-2aa9-45d5-ae2f-a8c2117de08f"
+      },
+      {
+        "id": "d6838a17-a42c-4c2b-a326-21a60ac1628b",
+        "coordinates": "48.8566° N, 2.3522° E",
+        "elevation": 28794,
+        "soil_profile": "Loamy soil with good fertility",
+        "penetrometer_results": 67575,
+        "created_at": "2023-08-03T16:57:40.202Z",
+        "updated_at": "2023-08-03T18:17:55.034Z",
+        "job_id": "c4279451-dfed-4729-8051-10dde507d9c1"
+      },
+      {
+        "id": "96939fb0-eb80-40a3-937f-f98693727083",
+        "coordinates": "34.0522° N, 118.2437° W",
+        "elevation": 13344,
+        "soil_profile": "Peaty soil with high organic matter",
+        "penetrometer_results": 344,
+        "created_at": "2023-08-04T03:40:31.203Z",
+        "updated_at": "2023-08-03T23:46:42.390Z",
+        "job_id": "18382b49-8586-4251-87ab-7ae43141fed6"
+      },
+      {
+        "id": "34934348-bed7-46d0-baba-6f1a3cf5e82b",
+        "coordinates": "37.7749° N, 122.4194° W",
+        "elevation": 62590,
+        "soil_profile": "Silty soil with moderate fertility",
+        "penetrometer_results": 96308,
+        "created_at": "2023-08-03T22:15:19.685Z",
+        "updated_at": "2023-08-04T04:51:02.081Z",
+        "job_id": "c4279451-dfed-4729-8051-10dde507d9c1"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "f19caa5a-4c5c-4ad9-bfcd-040bafdace2b",
+        "amount": 11289,
+        "status": "Paid",
+        "created_at": "2023-08-03T19:52:56.414Z",
+        "updated_at": "2023-08-03T13:21:18.934Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "fb0395fd-ec16-435b-8684-1a09d453a026",
+        "amount": 18416,
+        "status": "Pending",
+        "created_at": "2023-08-03T08:11:24.957Z",
+        "updated_at": "2023-08-03T19:23:04.511Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "55375336-9bb9-400e-b935-81f1d999da69",
+        "amount": 33381,
+        "status": "Overdue",
+        "created_at": "2023-08-04T01:55:22.692Z",
+        "updated_at": "2023-08-03T22:37:47.282Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "92740652-508e-4074-abcb-e1cd0ed64be5",
+        "amount": 95659,
+        "status": "Cancelled",
+        "created_at": "2023-08-03T14:07:12.315Z",
+        "updated_at": "2023-08-03T23:20:12.229Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "5386e32e-9c58-480f-93f3-7014aea5b0f6",
+        "amount": 59659,
+        "status": "Refunded",
+        "created_at": "2023-08-03T08:45:26.940Z",
+        "updated_at": "2023-08-03T12:20:19.963Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "24783431-1d6c-4ee7-b491-389512b94ab2",
+        "name": "Project A",
+        "description": "A web development project",
+        "created_at": "2023-08-04T04:26:25.284Z",
+        "updated_at": "2023-08-03T17:56:07.622Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5ccae7dc-c929-4046-ae88-77db49083ab6",
+        "name": "Project B",
+        "description": "An app development project",
+        "created_at": "2023-08-03T12:45:22.427Z",
+        "updated_at": "2023-08-03T09:01:05.880Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d26ea354-32b3-435d-8e83-2d86168719c2",
+        "name": "Project C",
+        "description": "A marketing campaign project",
+        "created_at": "2023-08-03T14:15:38.916Z",
+        "updated_at": "2023-08-03T20:15:40.787Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4af3cfa0-5a72-4869-865c-1e169c15e432",
+        "name": "Project D",
+        "description": "A research project",
+        "created_at": "2023-08-03T10:00:27.038Z",
+        "updated_at": "2023-08-03T23:58:48.369Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5f98ad5b-a188-4922-be5b-1bf3d67c0d0a",
+        "name": "Project E",
+        "description": "A construction project",
+        "created_at": "2023-08-03T07:55:58.877Z",
+        "updated_at": "2023-08-04T01:13:57.467Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "c6801c6f-2f6f-4435-b6f0-1804e7ef548d",
+        "name": "Job A",
+        "description": "A software engineering job",
+        "created_at": "2023-08-03T12:18:26.724Z",
+        "updated_at": "2023-08-04T01:26:55.825Z",
+        "project_id": "5f98ad5b-a188-4922-be5b-1bf3d67c0d0a",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "02e36725-969b-4dfc-b9a6-df43ff462173",
+        "name": "Job B",
+        "description": "A sales job",
+        "created_at": "2023-08-03T21:49:48.070Z",
+        "updated_at": "2023-08-04T01:35:45.055Z",
+        "project_id": "24783431-1d6c-4ee7-b491-389512b94ab2",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "fc74e263-a968-4aba-b0f3-877d6a50e737",
+        "name": "Job C",
+        "description": "A marketing job",
+        "created_at": "2023-08-03T10:42:48.066Z",
+        "updated_at": "2023-08-03T11:13:33.376Z",
+        "project_id": "24783431-1d6c-4ee7-b491-389512b94ab2",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "a2aa42c6-1d53-4e85-9ce9-cb03cfca77a8",
+        "name": "Job D",
+        "description": "A project management job",
+        "created_at": "2023-08-03T06:40:22.129Z",
+        "updated_at": "2023-08-04T04:33:29.719Z",
+        "project_id": "5ccae7dc-c929-4046-ae88-77db49083ab6",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "987b23ba-5973-4b00-a20a-95b39d2f4061",
+        "name": "Job E",
+        "description": "A customer support job",
+        "created_at": "2023-08-04T03:42:24.551Z",
+        "updated_at": "2023-08-03T08:25:46.664Z",
+        "project_id": "d26ea354-32b3-435d-8e83-2d86168719c2",
+        "technician_id": "user_entity_pk"
+      }
+    ],
+    "fieldwork_data": [
+      {
+        "id": "01567e9a-e071-4cb9-bc53-a9042352aa47",
+        "coordinates": "40.7128° N, 74.0060° W",
+        "elevation": 3059,
+        "soil_profile": "Sandy soil with high drainage",
+        "penetrometer_results": 20212,
+        "created_at": "2023-08-03T14:36:01.706Z",
+        "updated_at": "2023-08-03T08:20:56.482Z",
+        "job_id": "987b23ba-5973-4b00-a20a-95b39d2f4061"
+      },
+      {
+        "id": "4bb0494d-4726-4cff-8e21-9274fca68794",
+        "coordinates": "51.5074° N, 0.1278° W",
+        "elevation": 76106,
+        "soil_profile": "Clay soil with moderate drainage",
+        "penetrometer_results": 90337,
+        "created_at": "2023-08-03T09:23:05.941Z",
+        "updated_at": "2023-08-03T08:13:52.703Z",
+        "job_id": "fc74e263-a968-4aba-b0f3-877d6a50e737"
+      },
+      {
+        "id": "dee7caf5-9b96-480c-ad49-6a740a4e4380",
+        "coordinates": "48.8566° N, 2.3522° E",
+        "elevation": 842,
+        "soil_profile": "Loamy soil with good fertility",
+        "penetrometer_results": 97660,
+        "created_at": "2023-08-03T17:00:19.243Z",
+        "updated_at": "2023-08-03T14:51:05.110Z",
+        "job_id": "a2aa42c6-1d53-4e85-9ce9-cb03cfca77a8"
+      },
+      {
+        "id": "d97e024d-5d1b-4036-a2c4-fb888bda6735",
+        "coordinates": "34.0522° N, 118.2437° W",
+        "elevation": 71406,
+        "soil_profile": "Peaty soil with high organic matter",
+        "penetrometer_results": 6408,
+        "created_at": "2023-08-03T10:42:34.229Z",
+        "updated_at": "2023-08-03T21:03:23.117Z",
+        "job_id": "fc74e263-a968-4aba-b0f3-877d6a50e737"
+      },
+      {
+        "id": "7d4a1cc5-6529-476d-84ca-bd3de63e4ff4",
+        "coordinates": "37.7749° N, 122.4194° W",
+        "elevation": 21008,
+        "soil_profile": "Silty soil with moderate fertility",
+        "penetrometer_results": 85752,
+        "created_at": "2023-08-03T15:04:44.957Z",
+        "updated_at": "2023-08-03T22:32:10.056Z",
+        "job_id": "fc74e263-a968-4aba-b0f3-877d6a50e737"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "cfe9d74d-5c29-4dad-9034-97b68b1212b2",
+        "amount": 28629,
+        "status": "Paid",
+        "created_at": "2023-08-04T03:06:45.030Z",
+        "updated_at": "2023-08-03T07:10:25.317Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "955884a2-208b-41b7-bf35-dde64d67a01e",
+        "amount": 42085,
+        "status": "Pending",
+        "created_at": "2023-08-03T23:34:55.068Z",
+        "updated_at": "2023-08-03T18:58:04.103Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "f2480fae-954d-48e4-814d-d61c1ebbb9f5",
+        "amount": 68531,
+        "status": "Overdue",
+        "created_at": "2023-08-03T20:00:26.105Z",
+        "updated_at": "2023-08-04T04:16:50.735Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "2f0c7ab7-535d-48e2-aa9a-61c0ed70f5cc",
+        "amount": 54590,
+        "status": "Cancelled",
+        "created_at": "2023-08-03T22:11:37.292Z",
+        "updated_at": "2023-08-03T11:14:45.570Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "113ee6b1-8dcd-4054-9119-5717f5f7911f",
+        "amount": 44435,
+        "status": "Refunded",
+        "created_at": "2023-08-03T09:03:42.522Z",
+        "updated_at": "2023-08-03T14:39:57.550Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "a43bfe53-5828-461f-9726-a5ad2a95f8b1",
+        "name": "Website Redesign",
+        "description": "Redesigning the company website to improve user experience",
+        "created_at": "2023-08-04T00:53:01.490Z",
+        "updated_at": "2023-08-03T22:16:44.243Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "521ecb0a-a021-4447-9ade-aadcf5b9ce09",
+        "name": "Product Launch",
+        "description": "Launching a new product in the market",
+        "created_at": "2023-08-03T10:17:51.902Z",
+        "updated_at": "2023-08-03T23:09:53.182Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6c3a7507-975d-40b6-b28e-d98aad34678f",
+        "name": "Marketing Campaign",
+        "description": "Executing a marketing campaign to increase brand awareness",
+        "created_at": "2023-08-04T04:19:11.838Z",
+        "updated_at": "2023-08-04T05:00:47.545Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c372f4e7-9f2c-47cb-ab8e-9b2ee718d587",
+        "name": "Client Onboarding",
+        "description": "Onboarding a new client for a consulting project",
+        "created_at": "2023-08-03T09:27:54.795Z",
+        "updated_at": "2023-08-03T12:04:15.680Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4f1cf3c1-72bb-4878-95a9-e1480bc958f3",
+        "name": "Research Study",
+        "description": "Conducting a research study on consumer behavior",
+        "created_at": "2023-08-03T07:41:49.773Z",
+        "updated_at": "2023-08-04T04:17:38.550Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "6c8debd7-f9b1-4a0d-90f9-b4d5518d3e89",
+        "name": "Software Engineer",
+        "description": "Developing software applications using the latest technologies",
+        "created_at": "2023-08-04T03:17:53.887Z",
+        "updated_at": "2023-08-03T18:33:38.052Z",
+        "project_id": "c372f4e7-9f2c-47cb-ab8e-9b2ee718d587",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "2e89cd41-9d9c-45b2-ad8a-39bce26624a7",
+        "name": "Marketing Manager",
+        "description": "Managing marketing campaigns and analyzing their performance",
+        "created_at": "2023-08-04T05:03:42.298Z",
+        "updated_at": "2023-08-03T12:17:50.784Z",
+        "project_id": "c372f4e7-9f2c-47cb-ab8e-9b2ee718d587",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "db23e526-aa9d-4665-8cc8-89074abc2a55",
+        "name": "Sales Representative",
+        "description": "Selling products and services to potential customers",
+        "created_at": "2023-08-04T04:09:39.021Z",
+        "updated_at": "2023-08-04T00:48:31.996Z",
+        "project_id": "a43bfe53-5828-461f-9726-a5ad2a95f8b1",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "f72b3ce6-92a0-4b5e-a90d-d5f61edf51ee",
+        "name": "Project Manager",
+        "description": "Managing projects and ensuring their successful completion",
+        "created_at": "2023-08-04T00:52:03.590Z",
+        "updated_at": "2023-08-03T19:29:18.384Z",
+        "project_id": "6c3a7507-975d-40b6-b28e-d98aad34678f",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "5f041443-cc00-493a-9cef-b846ade84ab2",
+        "name": "Data Analyst",
+        "description": "Analyzing data to derive meaningful insights for business decision-making",
+        "created_at": "2023-08-03T20:53:10.932Z",
+        "updated_at": "2023-08-03T14:52:50.976Z",
+        "project_id": "6c3a7507-975d-40b6-b28e-d98aad34678f",
+        "technician_id": "user_entity_pk"
+      }
+    ],
+    "fieldwork_data": [
+      {
+        "id": "6ad45e2d-ae60-4964-8df3-0fdf77558404",
+        "coordinates": "40.7128° N, 74.0060° W",
+        "elevation": 91507,
+        "soil_profile": "Sandy soil with low fertility",
+        "penetrometer_results": 18510,
+        "created_at": "2023-08-04T00:07:19.803Z",
+        "updated_at": "2023-08-04T04:54:19.166Z",
+        "job_id": "f72b3ce6-92a0-4b5e-a90d-d5f61edf51ee"
+      },
+      {
+        "id": "93c76497-017b-4ae2-80d4-dbe104d9b35c",
+        "coordinates": "51.5074° N, 0.1278° W",
+        "elevation": 96063,
+        "soil_profile": "Clay soil with high water retention",
+        "penetrometer_results": 68140,
+        "created_at": "2023-08-03T07:25:21.879Z",
+        "updated_at": "2023-08-03T09:02:46.280Z",
+        "job_id": "5f041443-cc00-493a-9cef-b846ade84ab2"
+      },
+      {
+        "id": "f3450fb3-456f-40f2-b23c-15660c43dfa9",
+        "coordinates": "48.8566° N, 2.3522° E",
+        "elevation": 60594,
+        "soil_profile": "Loamy soil with balanced fertility",
+        "penetrometer_results": 77043,
+        "created_at": "2023-08-03T08:35:03.782Z",
+        "updated_at": "2023-08-03T11:01:32.858Z",
+        "job_id": "f72b3ce6-92a0-4b5e-a90d-d5f61edf51ee"
+      },
+      {
+        "id": "b0de465f-0e9d-4188-a6e7-b953c0b3bd69",
+        "coordinates": "34.0522° N, 118.2437° W",
+        "elevation": 50047,
+        "soil_profile": "Peaty soil with high organic matter content",
+        "penetrometer_results": 67523,
+        "created_at": "2023-08-03T10:10:36.837Z",
+        "updated_at": "2023-08-03T16:50:41.317Z",
+        "job_id": "f72b3ce6-92a0-4b5e-a90d-d5f61edf51ee"
+      },
+      {
+        "id": "01e895dd-2321-46f7-b2f8-ad3d04ad63a1",
+        "coordinates": "37.7749° N, 122.4194° W",
+        "elevation": 69206,
+        "soil_profile": "Chalky soil with alkaline pH",
+        "penetrometer_results": 22024,
+        "created_at": "2023-08-03T14:19:43.927Z",
+        "updated_at": "2023-08-03T21:23:21.883Z",
+        "job_id": "2e89cd41-9d9c-45b2-ad8a-39bce26624a7"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "182fc4ba-cde3-4619-8be3-008f36202ee6",
+        "amount": 49223,
+        "status": "Paid",
+        "created_at": "2023-08-04T06:00:20.776Z",
+        "updated_at": "2023-08-03T17:32:13.878Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "10532160-6f11-4832-a122-ce8249092e92",
+        "amount": 98397,
+        "status": "Pending",
+        "created_at": "2023-08-04T03:10:12.668Z",
+        "updated_at": "2023-08-03T07:17:12.513Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "98902a25-049b-41ac-a5be-5d06e1cb5369",
+        "amount": 53388,
+        "status": "Overdue",
+        "created_at": "2023-08-03T11:32:25.048Z",
+        "updated_at": "2023-08-04T00:27:14.909Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "23623c3f-ce86-4b49-87cb-814cc0df7bbb",
+        "amount": 39508,
+        "status": "Cancelled",
+        "created_at": "2023-08-04T02:20:52.194Z",
+        "updated_at": "2023-08-03T14:11:22.564Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "3973f505-5ede-4153-8a9f-592f8827596a",
+        "amount": 1223,
+        "status": "Refunded",
+        "created_at": "2023-08-03T22:44:45.825Z",
+        "updated_at": "2023-08-04T00:49:45.816Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "b612a079-08c4-4d79-aeb0-113da72001a8",
+        "name": "Project A",
+        "description": "A web development project",
+        "created_at": "2023-08-03T23:05:35.569Z",
+        "updated_at": "2023-08-03T06:26:45.565Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4d81d3c9-f28c-4ae4-b9fa-599f4ad0e32f",
+        "name": "Project B",
+        "description": "An app development project",
+        "created_at": "2023-08-03T11:50:57.495Z",
+        "updated_at": "2023-08-04T03:26:49.714Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "638de286-4d7d-4a92-9ff9-ee131d9bb145",
+        "name": "Project C",
+        "description": "A marketing campaign project",
+        "created_at": "2023-08-03T23:12:32.576Z",
+        "updated_at": "2023-08-04T02:28:51.675Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "cc682bf7-8d84-49f8-8be7-96e106004d5d",
+        "name": "Project D",
+        "description": "A research project",
+        "created_at": "2023-08-03T13:30:30.450Z",
+        "updated_at": "2023-08-03T20:57:01.994Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4f291343-8116-4bcd-b27a-e1fe89a73bdb",
+        "name": "Project E",
+        "description": "A construction project",
+        "created_at": "2023-08-03T15:25:03.434Z",
+        "updated_at": "2023-08-03T07:03:27.858Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "070970e6-c538-4ef2-a141-157fbeaf9825",
+        "name": "Job A",
+        "description": "A software engineering job",
+        "created_at": "2023-08-03T13:19:17.877Z",
+        "updated_at": "2023-08-03T08:32:58.414Z",
+        "project_id": "b612a079-08c4-4d79-aeb0-113da72001a8",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "faac9392-cd80-465f-b52e-acc3d53425eb",
+        "name": "Job B",
+        "description": "A sales job",
+        "created_at": "2023-08-03T21:09:04.135Z",
+        "updated_at": "2023-08-04T03:06:34.366Z",
+        "project_id": "cc682bf7-8d84-49f8-8be7-96e106004d5d",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "643f7459-d087-445e-aacc-6ec7a0c4afa8",
+        "name": "Job C",
+        "description": "A marketing job",
+        "created_at": "2023-08-03T13:10:35.526Z",
+        "updated_at": "2023-08-03T11:36:39.853Z",
+        "project_id": "cc682bf7-8d84-49f8-8be7-96e106004d5d",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "62379c12-d8ba-44df-9e27-97899546efbf",
+        "name": "Job D",
+        "description": "A project management job",
+        "created_at": "2023-08-03T17:15:47.035Z",
+        "updated_at": "2023-08-04T00:23:33.295Z",
+        "project_id": "4d81d3c9-f28c-4ae4-b9fa-599f4ad0e32f",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "2d0f2cc5-65d1-4cdd-8964-a4d199fa34fe",
+        "name": "Job E",
+        "description": "A customer support job",
+        "created_at": "2023-08-03T22:00:14.246Z",
+        "updated_at": "2023-08-03T18:01:34.388Z",
+        "project_id": "cc682bf7-8d84-49f8-8be7-96e106004d5d",
+        "technician_id": "user_entity_pk"
+      }
+    ],
+    "fieldwork_data": [
+      {
+        "id": "4f00dc6e-5f5f-45e9-b7ce-773104f6ede6",
+        "coordinates": "40.7128° N, 74.0060° W",
+        "elevation": 71933,
+        "soil_profile": "Sandy soil with low fertility",
+        "penetrometer_results": 76876,
+        "created_at": "2023-08-03T20:46:51.706Z",
+        "updated_at": "2023-08-03T21:02:51.036Z",
+        "job_id": "62379c12-d8ba-44df-9e27-97899546efbf"
+      },
+      {
+        "id": "8ca05178-65ee-4165-bbb2-66f0c9e8b103",
+        "coordinates": "51.5074° N, 0.1278° W",
+        "elevation": 61249,
+        "soil_profile": "Clay soil with high water retention",
+        "penetrometer_results": 44861,
+        "created_at": "2023-08-04T03:29:56.263Z",
+        "updated_at": "2023-08-03T11:24:46.101Z",
+        "job_id": "62379c12-d8ba-44df-9e27-97899546efbf"
+      },
+      {
+        "id": "7fdb6f66-d8c7-4e2f-9c25-2b24037a3fcc",
+        "coordinates": "48.8566° N, 2.3522° E",
+        "elevation": 96566,
+        "soil_profile": "Loamy soil with moderate fertility",
+        "penetrometer_results": 22848,
+        "created_at": "2023-08-03T12:02:49.558Z",
+        "updated_at": "2023-08-03T17:46:07.429Z",
+        "job_id": "2d0f2cc5-65d1-4cdd-8964-a4d199fa34fe"
+      },
+      {
+        "id": "4e000ef9-427f-4aab-b7b8-43b3b207aa0e",
+        "coordinates": "34.0522° N, 118.2437° W",
+        "elevation": 3609,
+        "soil_profile": "Peaty soil with high organic matter",
+        "penetrometer_results": 52378,
+        "created_at": "2023-08-03T19:48:02.605Z",
+        "updated_at": "2023-08-04T00:57:46.185Z",
+        "job_id": "643f7459-d087-445e-aacc-6ec7a0c4afa8"
+      },
+      {
+        "id": "d1c05979-93c7-4cf2-a992-36903449888f",
+        "coordinates": "37.7749° N, 122.4194° W",
+        "elevation": 25382,
+        "soil_profile": "Chalky soil with alkaline pH",
+        "penetrometer_results": 20293,
+        "created_at": "2023-08-03T14:29:47.459Z",
+        "updated_at": "2023-08-04T02:29:45.709Z",
+        "job_id": "643f7459-d087-445e-aacc-6ec7a0c4afa8"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "9833b8b8-b544-4e4f-a195-7f49c12c7ba4",
+        "amount": 87533,
+        "status": "Paid",
+        "created_at": "2023-08-03T23:01:58.412Z",
+        "updated_at": "2023-08-03T12:52:37.327Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "93532d07-d00b-4496-9d60-ccf20fe4d786",
+        "amount": 22028,
+        "status": "Pending",
+        "created_at": "2023-08-03T17:14:09.431Z",
+        "updated_at": "2023-08-03T18:56:57.310Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "f6774485-f75e-4f3e-b101-6df5a3c72a5d",
+        "amount": 73605,
+        "status": "Overdue",
+        "created_at": "2023-08-04T02:24:58.527Z",
+        "updated_at": "2023-08-03T06:55:41.084Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "65253159-dc99-4da2-9ab5-d24541a90c84",
+        "amount": 91319,
+        "status": "Cancelled",
+        "created_at": "2023-08-03T21:44:33.020Z",
+        "updated_at": "2023-08-03T09:46:36.990Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "d0ae2d96-9388-459f-9263-e37c4e8177df",
+        "amount": 15055,
+        "status": "Refunded",
+        "created_at": "2023-08-04T05:56:49.078Z",
+        "updated_at": "2023-08-03T11:07:46.864Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "20323bb3-f8a3-4de3-a44b-234487abc6ea",
+        "name": "Project A",
+        "description": "A web development project",
+        "created_at": "2023-08-03T16:53:11.641Z",
+        "updated_at": "2023-08-04T01:01:30.349Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9f6522d0-c03f-4b33-a9c7-8af8b6b395a7",
+        "name": "Project B",
+        "description": "An app development project",
+        "created_at": "2023-08-03T12:34:14.500Z",
+        "updated_at": "2023-08-04T00:05:31.708Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "54d438a6-3e68-4f47-8cb5-17d69f1d5bbd",
+        "name": "Project C",
+        "description": "A marketing campaign project",
+        "created_at": "2023-08-03T19:59:10.985Z",
+        "updated_at": "2023-08-03T19:51:52.045Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f89c4aa1-738d-4677-84e9-14f7fdb03def",
+        "name": "Project D",
+        "description": "A research project",
+        "created_at": "2023-08-03T10:33:58.127Z",
+        "updated_at": "2023-08-03T19:25:25.648Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4d236f08-6e9d-4c78-a17e-288867719ddb",
+        "name": "Project E",
+        "description": "A construction project",
+        "created_at": "2023-08-04T03:43:14.891Z",
+        "updated_at": "2023-08-03T23:06:59.817Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "abc696af-9dbf-44e4-8336-0aaaf5f83cfa",
+        "name": "Job A",
+        "description": "A software engineering job",
+        "created_at": "2023-08-03T17:13:31.005Z",
+        "updated_at": "2023-08-03T11:34:25.883Z",
+        "project_id": "9f6522d0-c03f-4b33-a9c7-8af8b6b395a7",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "99cbd4d1-0664-4bab-bd20-2079b3631c5b",
+        "name": "Job B",
+        "description": "A sales job",
+        "created_at": "2023-08-03T15:20:34.749Z",
+        "updated_at": "2023-08-04T01:04:07.174Z",
+        "project_id": "54d438a6-3e68-4f47-8cb5-17d69f1d5bbd",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "7e1f880e-380e-4452-88b9-4a31b8eebff4",
+        "name": "Job C",
+        "description": "A marketing job",
+        "created_at": "2023-08-03T11:49:04.231Z",
+        "updated_at": "2023-08-03T13:02:48.774Z",
+        "project_id": "4d236f08-6e9d-4c78-a17e-288867719ddb",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "60d8b895-6205-44cc-aa9a-1ae579439c16",
+        "name": "Job D",
+        "description": "A project management job",
+        "created_at": "2023-08-03T19:34:39.198Z",
+        "updated_at": "2023-08-03T17:48:52.470Z",
+        "project_id": "4d236f08-6e9d-4c78-a17e-288867719ddb",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "c4f7d330-e9eb-4072-b71f-5e3b63ccd3c0",
+        "name": "Job E",
+        "description": "A customer support job",
+        "created_at": "2023-08-03T22:41:04.353Z",
+        "updated_at": "2023-08-04T04:02:42.517Z",
+        "project_id": "54d438a6-3e68-4f47-8cb5-17d69f1d5bbd",
+        "technician_id": "user_entity_pk"
+      }
+    ],
+    "fieldwork_data": [
+      {
+        "id": "63f48923-c41e-4ee6-a366-0d9ce1fc75b5",
+        "coordinates": "40.7128° N, 74.0060° W",
+        "elevation": 77014,
+        "soil_profile": "Sandy soil with low fertility",
+        "penetrometer_results": 61449,
+        "created_at": "2023-08-04T06:13:53.076Z",
+        "updated_at": "2023-08-03T16:32:48.278Z",
+        "job_id": "7e1f880e-380e-4452-88b9-4a31b8eebff4"
+      },
+      {
+        "id": "56d7b15f-510f-4e72-b996-80b06d10c2aa",
+        "coordinates": "51.5074° N, 0.1278° W",
+        "elevation": 72545,
+        "soil_profile": "Clay soil with high water retention",
+        "penetrometer_results": 46080,
+        "created_at": "2023-08-04T04:53:47.735Z",
+        "updated_at": "2023-08-03T17:41:04.508Z",
+        "job_id": "99cbd4d1-0664-4bab-bd20-2079b3631c5b"
+      },
+      {
+        "id": "ca42226a-f549-46fa-a664-ed16235cc00b",
+        "coordinates": "48.8566° N, 2.3522° E",
+        "elevation": 78032,
+        "soil_profile": "Loamy soil with moderate fertility",
+        "penetrometer_results": 54789,
+        "created_at": "2023-08-03T11:22:46.054Z",
+        "updated_at": "2023-08-03T22:13:25.135Z",
+        "job_id": "abc696af-9dbf-44e4-8336-0aaaf5f83cfa"
+      },
+      {
+        "id": "482682a5-d912-43a7-9c21-28ece759d804",
+        "coordinates": "34.0522° N, 118.2437° W",
+        "elevation": 90782,
+        "soil_profile": "Peaty soil with high organic matter",
+        "penetrometer_results": 34798,
+        "created_at": "2023-08-04T02:02:53.616Z",
+        "updated_at": "2023-08-03T20:25:08.167Z",
+        "job_id": "60d8b895-6205-44cc-aa9a-1ae579439c16"
+      },
+      {
+        "id": "90b82990-e95b-4cf6-bc46-b93defd72967",
+        "coordinates": "37.7749° N, 122.4194° W",
+        "elevation": 62264,
+        "soil_profile": "Chalky soil with alkaline pH",
+        "penetrometer_results": 76040,
+        "created_at": "2023-08-03T13:17:08.248Z",
+        "updated_at": "2023-08-04T02:35:50.006Z",
+        "job_id": "7e1f880e-380e-4452-88b9-4a31b8eebff4"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "96b43f8f-b4fb-4c9b-a4bb-1505ad1dca9a",
+        "amount": 59785,
+        "status": "Paid",
+        "created_at": "2023-08-03T16:40:44.853Z",
+        "updated_at": "2023-08-03T13:48:57.847Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "5301896d-fddd-488c-9f83-9af751e3b9e2",
+        "amount": 57549,
+        "status": "Pending",
+        "created_at": "2023-08-03T21:18:07.421Z",
+        "updated_at": "2023-08-04T02:56:21.622Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "f5d2f172-d3b9-4e56-9f6f-845dcf1a23c6",
+        "amount": 24391,
+        "status": "Overdue",
+        "created_at": "2023-08-04T04:15:20.868Z",
+        "updated_at": "2023-08-03T23:51:13.897Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "db8d0df3-1ec5-4f3d-89b9-0ffa695d4c95",
+        "amount": 58021,
+        "status": "Cancelled",
+        "created_at": "2023-08-04T02:35:46.541Z",
+        "updated_at": "2023-08-03T16:52:00.491Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "a75dccf7-3e67-4647-84ff-0bbf9d7ff237",
+        "amount": 64271,
+        "status": "Refunded",
+        "created_at": "2023-08-04T03:01:38.615Z",
+        "updated_at": "2023-08-03T21:29:37.472Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "426f736c-604a-477c-a6de-56c457a892aa",
+        "name": "Website Redesign",
+        "description": "Revamp the company website with a modern design",
+        "created_at": "2023-08-03T16:38:42.363Z",
+        "updated_at": "2023-08-03T08:16:28.895Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4c02f48c-c5d6-4c1f-82e3-f1c7d2910cdc",
+        "name": "Product Launch",
+        "description": "Introduce a new product to the market",
+        "created_at": "2023-08-03T15:10:17.389Z",
+        "updated_at": "2023-08-04T04:54:12.793Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8092c37e-05c4-431f-867f-0034451895c9",
+        "name": "Marketing Campaign",
+        "description": "Execute a targeted marketing campaign",
+        "created_at": "2023-08-04T03:16:05.541Z",
+        "updated_at": "2023-08-03T15:18:15.531Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7979b320-e565-4ec4-97cc-1b5474d23d54",
+        "name": "Client Onboarding",
+        "description": "Streamline the client onboarding process",
+        "created_at": "2023-08-03T09:14:48.092Z",
+        "updated_at": "2023-08-03T06:57:59.578Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f6c53368-f6af-4a19-a3b3-83042aeb23d7",
+        "name": "Research Study",
+        "description": "Conduct a comprehensive research study",
+        "created_at": "2023-08-03T15:55:15.890Z",
+        "updated_at": "2023-08-03T22:20:26.839Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "82d824c2-3d74-4e3f-afc9-771a16d01cc5",
+        "name": "Software Engineer",
+        "description": "Develop and maintain software applications",
+        "created_at": "2023-08-04T03:19:58.765Z",
+        "updated_at": "2023-08-03T19:48:54.456Z",
+        "project_id": "426f736c-604a-477c-a6de-56c457a892aa",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "b093637a-473d-4f60-9b2e-34e4a2f1f8e0",
+        "name": "Marketing Manager",
+        "description": "Plan and execute marketing strategies",
+        "created_at": "2023-08-04T01:27:13.344Z",
+        "updated_at": "2023-08-03T18:23:02.074Z",
+        "project_id": "426f736c-604a-477c-a6de-56c457a892aa",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "2d27c633-5ab1-4a59-a09a-fdf1131c4711",
+        "name": "Sales Representative",
+        "description": "Generate leads and close sales deals",
+        "created_at": "2023-08-04T02:20:01.912Z",
+        "updated_at": "2023-08-03T11:31:02.281Z",
+        "project_id": "f6c53368-f6af-4a19-a3b3-83042aeb23d7",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "0dd0ea4e-cc0a-4ba6-8918-ad6add8636a2",
+        "name": "Project Manager",
+        "description": "Manage projects and teams",
+        "created_at": "2023-08-03T22:32:59.951Z",
+        "updated_at": "2023-08-03T07:40:39.360Z",
+        "project_id": "f6c53368-f6af-4a19-a3b3-83042aeb23d7",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "bc16a865-8b95-41ee-a641-b5dcf038934a",
+        "name": "Data Analyst",
+        "description": "Analyze data and provide insights",
+        "created_at": "2023-08-03T21:29:08.314Z",
+        "updated_at": "2023-08-03T09:13:21.893Z",
+        "project_id": "f6c53368-f6af-4a19-a3b3-83042aeb23d7",
+        "technician_id": "user_entity_pk"
+      }
+    ],
+    "fieldwork_data": [
+      {
+        "id": "02ec1bab-32d8-44e9-8ba8-71d98c0e2c8d",
+        "coordinates": "40.7128° N, 74.0060° W",
+        "elevation": 61014,
+        "soil_profile": "Loam soil with high fertility",
+        "penetrometer_results": 54596,
+        "created_at": "2023-08-03T17:29:42.087Z",
+        "updated_at": "2023-08-03T13:54:14.446Z",
+        "job_id": "82d824c2-3d74-4e3f-afc9-771a16d01cc5"
+      },
+      {
+        "id": "c01a9da2-cc2d-4813-abf4-b206010cd5bc",
+        "coordinates": "51.5074° N, 0.1278° W",
+        "elevation": 68950,
+        "soil_profile": "Sandy soil with low water retention",
+        "penetrometer_results": 60657,
+        "created_at": "2023-08-03T14:19:43.058Z",
+        "updated_at": "2023-08-03T11:13:33.224Z",
+        "job_id": "0dd0ea4e-cc0a-4ba6-8918-ad6add8636a2"
+      },
+      {
+        "id": "ab7c2938-803b-4333-8a0f-016a94509e8a",
+        "coordinates": "48.8566° N, 2.3522° E",
+        "elevation": 7536,
+        "soil_profile": "Clay soil with moderate drainage",
+        "penetrometer_results": 38023,
+        "created_at": "2023-08-04T00:00:00.552Z",
+        "updated_at": "2023-08-03T21:43:50.290Z",
+        "job_id": "0dd0ea4e-cc0a-4ba6-8918-ad6add8636a2"
+      },
+      {
+        "id": "b124aa68-e2f7-4a4e-a454-675c10f04535",
+        "coordinates": "34.0522° N, 118.2437° W",
+        "elevation": 80992,
+        "soil_profile": "Peat soil with high organic matter",
+        "penetrometer_results": 77189,
+        "created_at": "2023-08-03T23:27:48.050Z",
+        "updated_at": "2023-08-04T06:14:09.494Z",
+        "job_id": "0dd0ea4e-cc0a-4ba6-8918-ad6add8636a2"
+      },
+      {
+        "id": "efa02821-d7ca-4e82-9b47-15d22d4841ce",
+        "coordinates": "37.7749° N, 122.4194° W",
+        "elevation": 67460,
+        "soil_profile": "Chalky soil with alkaline pH",
+        "penetrometer_results": 32279,
+        "created_at": "2023-08-03T09:42:22.873Z",
+        "updated_at": "2023-08-03T10:44:01.038Z",
+        "job_id": "0dd0ea4e-cc0a-4ba6-8918-ad6add8636a2"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "b7274bed-1f5e-4e97-909e-5bb1e26358a5",
+        "amount": 76809,
+        "status": "Paid",
+        "created_at": "2023-08-03T06:35:31.725Z",
+        "updated_at": "2023-08-03T22:17:55.538Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "68d1556a-ffbe-44eb-ab5f-c6c5690d7b92",
+        "amount": 72181,
+        "status": "Pending",
+        "created_at": "2023-08-03T11:18:08.121Z",
+        "updated_at": "2023-08-03T21:16:11.852Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "2b744a52-2a58-4805-b586-e015de756d1d",
+        "amount": 70243,
+        "status": "Overdue",
+        "created_at": "2023-08-03T11:47:02.964Z",
+        "updated_at": "2023-08-04T03:09:17.690Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "2c6550bc-24fd-4d23-b89f-84b14390f089",
+        "amount": 93174,
+        "status": "Cancelled",
+        "created_at": "2023-08-03T11:22:02.782Z",
+        "updated_at": "2023-08-03T16:02:45.213Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "97ea2ff1-77b1-4856-98b5-b7890618b2cb",
+        "amount": 5253,
+        "status": "Refunded",
+        "created_at": "2023-08-04T04:05:28.670Z",
+        "updated_at": "2023-08-03T15:30:50.963Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "148cfb85-62df-4e63-acd5-9ab21d912984",
+        "name": "Project A",
+        "description": "A web development project",
+        "created_at": "2023-08-04T00:50:52.390Z",
+        "updated_at": "2023-08-04T01:18:48.501Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b854dc8e-fd8a-410c-a85f-33281edc9bad",
+        "name": "Project B",
+        "description": "An app development project",
+        "created_at": "2023-08-03T12:37:58.152Z",
+        "updated_at": "2023-08-03T18:01:51.520Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d681ce0b-20ff-4fcb-88df-b3645f93411b",
+        "name": "Project C",
+        "description": "A marketing campaign project",
+        "created_at": "2023-08-03T08:53:54.856Z",
+        "updated_at": "2023-08-03T15:03:24.343Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "65ac35ff-0473-4b55-b21d-f47e52b0574a",
+        "name": "Project D",
+        "description": "A research project",
+        "created_at": "2023-08-03T18:43:09.782Z",
+        "updated_at": "2023-08-03T10:25:26.685Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ca2a197b-d275-4264-9118-2b58b6c14330",
+        "name": "Project E",
+        "description": "A construction project",
+        "created_at": "2023-08-03T22:02:58.633Z",
+        "updated_at": "2023-08-03T23:18:50.283Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "c9c90849-1866-4ec8-9469-613fac6faffa",
+        "name": "Job A",
+        "description": "A software engineering job",
+        "created_at": "2023-08-04T05:13:49.051Z",
+        "updated_at": "2023-08-03T20:04:23.674Z",
+        "project_id": "d681ce0b-20ff-4fcb-88df-b3645f93411b",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "003abdc3-5405-4971-91ad-8c5cb09ae784",
+        "name": "Job B",
+        "description": "A sales job",
+        "created_at": "2023-08-03T21:49:09.053Z",
+        "updated_at": "2023-08-03T21:41:06.856Z",
+        "project_id": "b854dc8e-fd8a-410c-a85f-33281edc9bad",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "710f3a96-2551-4d24-b109-e6d2107da315",
+        "name": "Job C",
+        "description": "A marketing job",
+        "created_at": "2023-08-03T20:44:52.583Z",
+        "updated_at": "2023-08-03T17:37:11.424Z",
+        "project_id": "ca2a197b-d275-4264-9118-2b58b6c14330",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "0236b984-3833-4065-8441-da8121460966",
+        "name": "Job D",
+        "description": "A project management job",
+        "created_at": "2023-08-03T13:50:31.047Z",
+        "updated_at": "2023-08-03T20:10:47.975Z",
+        "project_id": "b854dc8e-fd8a-410c-a85f-33281edc9bad",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "c5eb09cd-b6d9-4285-8931-c756bdfdcca2",
+        "name": "Job E",
+        "description": "A customer support job",
+        "created_at": "2023-08-03T13:28:49.746Z",
+        "updated_at": "2023-08-03T13:18:34.083Z",
+        "project_id": "ca2a197b-d275-4264-9118-2b58b6c14330",
+        "technician_id": "user_entity_pk"
+      }
+    ],
+    "fieldwork_data": [
+      {
+        "id": "a8b03025-e96a-443b-a061-e7356971752d",
+        "coordinates": "40.7128° N, 74.0060° W",
+        "elevation": 79133,
+        "soil_profile": "Sandy soil with high drainage",
+        "penetrometer_results": 46669,
+        "created_at": "2023-08-03T23:30:59.695Z",
+        "updated_at": "2023-08-03T22:53:14.043Z",
+        "job_id": "c9c90849-1866-4ec8-9469-613fac6faffa"
+      },
+      {
+        "id": "39100e89-3f02-4e18-8998-6375b78b6395",
+        "coordinates": "51.5074° N, 0.1278° W",
+        "elevation": 69517,
+        "soil_profile": "Clay soil with low permeability",
+        "penetrometer_results": 71688,
+        "created_at": "2023-08-03T07:29:41.464Z",
+        "updated_at": "2023-08-03T12:25:59.348Z",
+        "job_id": "0236b984-3833-4065-8441-da8121460966"
+      },
+      {
+        "id": "244bee4e-db3f-4f13-872b-06cbb18a4231",
+        "coordinates": "48.8566° N, 2.3522° E",
+        "elevation": 86527,
+        "soil_profile": "Loamy soil with moderate fertility",
+        "penetrometer_results": 31728,
+        "created_at": "2023-08-03T11:43:50.226Z",
+        "updated_at": "2023-08-03T18:09:14.617Z",
+        "job_id": "710f3a96-2551-4d24-b109-e6d2107da315"
+      },
+      {
+        "id": "7ae1c923-89ce-4235-b88f-4b3d7044ce90",
+        "coordinates": "34.0522° N, 118.2437° W",
+        "elevation": 58981,
+        "soil_profile": "Peaty soil with high organic matter",
+        "penetrometer_results": 76721,
+        "created_at": "2023-08-03T14:45:56.631Z",
+        "updated_at": "2023-08-03T19:50:05.763Z",
+        "job_id": "c5eb09cd-b6d9-4285-8931-c756bdfdcca2"
+      },
+      {
+        "id": "3e2f7346-8ba0-48cd-9353-2ecc05fccefc",
+        "coordinates": "37.7749° N, 122.4194° W",
+        "elevation": 62856,
+        "soil_profile": "Silty soil with good water holding capacity",
+        "penetrometer_results": 90619,
+        "created_at": "2023-08-03T22:53:50.050Z",
+        "updated_at": "2023-08-03T10:25:23.002Z",
+        "job_id": "c9c90849-1866-4ec8-9469-613fac6faffa"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "4c142235-b06d-41be-842c-e5e8c950652c",
+        "amount": 99515,
+        "status": "Paid",
+        "created_at": "2023-08-03T15:08:13.007Z",
+        "updated_at": "2023-08-03T19:58:29.121Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "be60c41f-7a50-4c6a-9c74-64261a237e04",
+        "amount": 28771,
+        "status": "Pending",
+        "created_at": "2023-08-03T11:42:28.078Z",
+        "updated_at": "2023-08-03T11:39:28.702Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "5fc20a40-0b30-4ed7-9da4-414abf4e34fb",
+        "amount": 95854,
+        "status": "Overdue",
+        "created_at": "2023-08-03T17:33:48.250Z",
+        "updated_at": "2023-08-04T05:17:49.642Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "9b62f01f-13fe-4d89-94ab-893da9924dcd",
+        "amount": 99336,
+        "status": "Cancelled",
+        "created_at": "2023-08-03T18:04:58.088Z",
+        "updated_at": "2023-08-03T21:49:49.915Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "5e9acd43-b520-411c-a18d-11ea9da4ce2f",
+        "amount": 69386,
+        "status": "Refunded",
+        "created_at": "2023-08-04T01:12:38.772Z",
+        "updated_at": "2023-08-03T13:41:03.047Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "6cd686fe-2518-4263-8842-e2bd4e7f3c8c",
+        "name": "Project A",
+        "description": "A web development project",
+        "created_at": "2023-08-03T22:20:42.192Z",
+        "updated_at": "2023-08-03T06:46:17.679Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dbf33dc3-ce99-4c1e-bd20-b3315d26165c",
+        "name": "Project B",
+        "description": "An app development project",
+        "created_at": "2023-08-04T00:44:40.284Z",
+        "updated_at": "2023-08-03T13:20:18.154Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "93685880-f5b5-48cb-94dd-8e0bc0daea03",
+        "name": "Project C",
+        "description": "A marketing campaign project",
+        "created_at": "2023-08-03T16:39:35.991Z",
+        "updated_at": "2023-08-03T12:22:32.790Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8dca8b0b-9703-4226-88cd-f3e7d9d147a1",
+        "name": "Project D",
+        "description": "A research project",
+        "created_at": "2023-08-03T07:32:41.350Z",
+        "updated_at": "2023-08-03T10:21:45.427Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f52b7e1f-b2c0-4766-b488-98274bd49722",
+        "name": "Project E",
+        "description": "A construction project",
+        "created_at": "2023-08-03T23:09:50.670Z",
+        "updated_at": "2023-08-03T17:34:55.771Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "cff93481-d598-450f-b261-e6c083d0f953",
+        "name": "Job A",
+        "description": "A software engineering job",
+        "created_at": "2023-08-03T07:39:29.760Z",
+        "updated_at": "2023-08-04T05:17:55.829Z",
+        "project_id": "6cd686fe-2518-4263-8842-e2bd4e7f3c8c",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "fd391869-2560-4ddf-a110-c407290b2003",
+        "name": "Job B",
+        "description": "A sales job",
+        "created_at": "2023-08-04T03:45:05.221Z",
+        "updated_at": "2023-08-03T07:10:22.698Z",
+        "project_id": "f52b7e1f-b2c0-4766-b488-98274bd49722",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "691b0eae-8fe3-408b-bb0c-9a873638ab2e",
+        "name": "Job C",
+        "description": "A marketing job",
+        "created_at": "2023-08-04T04:36:20.625Z",
+        "updated_at": "2023-08-03T19:18:27.951Z",
+        "project_id": "6cd686fe-2518-4263-8842-e2bd4e7f3c8c",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "5ec21f3e-7fb5-4be1-8890-96b70265027b",
+        "name": "Job D",
+        "description": "A project management job",
+        "created_at": "2023-08-04T04:14:08.225Z",
+        "updated_at": "2023-08-04T01:17:30.432Z",
+        "project_id": "8dca8b0b-9703-4226-88cd-f3e7d9d147a1",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "4723f7b3-ce82-41ee-b474-cdb912120a75",
+        "name": "Job E",
+        "description": "A customer support job",
+        "created_at": "2023-08-04T05:05:14.620Z",
+        "updated_at": "2023-08-03T23:40:57.104Z",
+        "project_id": "dbf33dc3-ce99-4c1e-bd20-b3315d26165c",
+        "technician_id": "user_entity_pk"
+      }
+    ],
+    "fieldwork_data": [
+      {
+        "id": "b3b1e40c-78a6-4707-8321-7e42c8fbf290",
+        "coordinates": "40.7128° N, 74.0060° W",
+        "elevation": 10368,
+        "soil_profile": "Sandy soil with low fertility",
+        "penetrometer_results": 55019,
+        "created_at": "2023-08-03T22:46:25.939Z",
+        "updated_at": "2023-08-03T21:47:27.090Z",
+        "job_id": "691b0eae-8fe3-408b-bb0c-9a873638ab2e"
+      },
+      {
+        "id": "e1b04b57-b498-4d25-a1e6-f70ce3feb351",
+        "coordinates": "51.5074° N, 0.1278° W",
+        "elevation": 4309,
+        "soil_profile": "Clay soil with high water retention",
+        "penetrometer_results": 83665,
+        "created_at": "2023-08-03T07:13:47.387Z",
+        "updated_at": "2023-08-04T02:18:45.410Z",
+        "job_id": "cff93481-d598-450f-b261-e6c083d0f953"
+      },
+      {
+        "id": "4be013d1-86d6-4f44-b09d-73c051ee187a",
+        "coordinates": "48.8566° N, 2.3522° E",
+        "elevation": 96155,
+        "soil_profile": "Loamy soil with moderate fertility",
+        "penetrometer_results": 36634,
+        "created_at": "2023-08-04T04:42:13.676Z",
+        "updated_at": "2023-08-03T16:19:31.111Z",
+        "job_id": "cff93481-d598-450f-b261-e6c083d0f953"
+      },
+      {
+        "id": "a55211a7-6a5e-461e-ad25-9513ae4720f1",
+        "coordinates": "34.0522° N, 118.2437° W",
+        "elevation": 29453,
+        "soil_profile": "Peaty soil with high organic matter",
+        "penetrometer_results": 63256,
+        "created_at": "2023-08-04T01:03:27.880Z",
+        "updated_at": "2023-08-03T18:07:06.702Z",
+        "job_id": "4723f7b3-ce82-41ee-b474-cdb912120a75"
+      },
+      {
+        "id": "74f1822c-8dcb-4790-b293-ff6188adbce9",
+        "coordinates": "37.7749° N, 122.4194° W",
+        "elevation": 41472,
+        "soil_profile": "Chalky soil with alkaline pH",
+        "penetrometer_results": 76123,
+        "created_at": "2023-08-03T10:44:22.601Z",
+        "updated_at": "2023-08-03T11:51:54.172Z",
+        "job_id": "5ec21f3e-7fb5-4be1-8890-96b70265027b"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "ea28f8dc-4c95-4d29-9ce6-ab8e5a669776",
+        "amount": 44896,
+        "status": "Paid",
+        "created_at": "2023-08-04T00:40:44.248Z",
+        "updated_at": "2023-08-03T08:29:28.336Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "46bb40bd-8adf-461b-b88d-20a6d11ca87d",
+        "amount": 23440,
+        "status": "Pending",
+        "created_at": "2023-08-04T02:28:20.541Z",
+        "updated_at": "2023-08-04T04:28:09.882Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "2086699e-e11b-494a-b720-a9046c7d9e12",
+        "amount": 43654,
+        "status": "Overdue",
+        "created_at": "2023-08-04T03:37:04.920Z",
+        "updated_at": "2023-08-03T23:45:07.777Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "12e2347d-f561-4380-8b45-16450bc1b4d5",
+        "amount": 58590,
+        "status": "Cancelled",
+        "created_at": "2023-08-03T14:16:27.023Z",
+        "updated_at": "2023-08-04T05:29:47.045Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "2c539936-bb31-451f-a607-97d3c1a91913",
+        "amount": 90543,
+        "status": "Refunded",
+        "created_at": "2023-08-03T15:28:03.855Z",
+        "updated_at": "2023-08-03T14:41:14.109Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "project": [
+      {
+        "id": "e684079e-22fd-44f6-9d68-2556f7d454fe",
+        "name": "Website Redesign",
+        "description": "Revamp the company website with a modern design",
+        "created_at": "2023-08-04T04:35:49.133Z",
+        "updated_at": "2023-08-03T20:14:18.104Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "404c439e-bf02-4bcd-a2b6-d46862fd992f",
+        "name": "Product Launch",
+        "description": "Introduce a new product to the market",
+        "created_at": "2023-08-03T10:39:25.846Z",
+        "updated_at": "2023-08-04T05:45:10.615Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4fac011b-49aa-459d-84d4-c22d0c9be956",
+        "name": "Marketing Campaign",
+        "description": "Execute a targeted marketing campaign",
+        "created_at": "2023-08-04T00:48:50.966Z",
+        "updated_at": "2023-08-04T02:10:38.270Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7f33055d-112b-4215-a1ef-d07191a22ce8",
+        "name": "Client Onboarding",
+        "description": "Streamline the client onboarding process",
+        "created_at": "2023-08-03T14:05:07.671Z",
+        "updated_at": "2023-08-03T14:39:50.203Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bb4ffb94-2bbb-4f41-be13-580757252f12",
+        "name": "Research Study",
+        "description": "Conduct a comprehensive research study",
+        "created_at": "2023-08-03T10:26:26.674Z",
+        "updated_at": "2023-08-03T08:54:22.794Z",
+        "admin_id": "user_entity_pk",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "job": [
+      {
+        "id": "aa44f0eb-ae6e-441a-8c2f-90471f9a546a",
+        "name": "Software Engineer",
+        "description": "Develop and maintain software applications",
+        "created_at": "2023-08-03T07:08:01.026Z",
+        "updated_at": "2023-08-03T23:36:42.368Z",
+        "project_id": "bb4ffb94-2bbb-4f41-be13-580757252f12",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "0c5114fc-76e4-414c-b760-a3d0c6f6ac15",
+        "name": "Marketing Manager",
+        "description": "Plan and execute marketing strategies",
+        "created_at": "2023-08-03T12:11:21.227Z",
+        "updated_at": "2023-08-04T06:13:49.884Z",
+        "project_id": "7f33055d-112b-4215-a1ef-d07191a22ce8",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "66a297f1-5f61-4486-807b-c2f7a7ecd683",
+        "name": "Sales Representative",
+        "description": "Generate leads and close sales deals",
+        "created_at": "2023-08-03T20:58:59.505Z",
+        "updated_at": "2023-08-03T17:59:43.013Z",
+        "project_id": "404c439e-bf02-4bcd-a2b6-d46862fd992f",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "ecf67fe5-1446-4afb-af83-3bb1d89589ca",
+        "name": "Project Manager",
+        "description": "Manage projects and teams",
+        "created_at": "2023-08-03T18:59:18.329Z",
+        "updated_at": "2023-08-04T00:33:26.112Z",
+        "project_id": "bb4ffb94-2bbb-4f41-be13-580757252f12",
+        "technician_id": "user_entity_pk"
+      },
+      {
+        "id": "c7c8e936-bb9c-4108-ab77-05053a163090",
+        "name": "Data Analyst",
+        "description": "Analyze data and provide insights",
+        "created_at": "2023-08-03T21:17:53.689Z",
+        "updated_at": "2023-08-04T04:28:47.746Z",
+        "project_id": "e684079e-22fd-44f6-9d68-2556f7d454fe",
+        "technician_id": "user_entity_pk"
+      }
+    ],
+    "fieldwork_data": [
+      {
+        "id": "44762d20-54ab-4372-9c87-542dced50402",
+        "coordinates": "40.7128° N, 74.0060° W",
+        "elevation": 56616,
+        "soil_profile": "Loam soil with high fertility",
+        "penetrometer_results": 14045,
+        "created_at": "2023-08-03T12:14:36.752Z",
+        "updated_at": "2023-08-03T09:32:30.976Z",
+        "job_id": "aa44f0eb-ae6e-441a-8c2f-90471f9a546a"
+      },
+      {
+        "id": "ef74c653-a6b8-421c-9350-649fba43432f",
+        "coordinates": "51.5074° N, 0.1278° W",
+        "elevation": 1921,
+        "soil_profile": "Sandy soil with low water retention",
+        "penetrometer_results": 89296,
+        "created_at": "2023-08-03T08:03:48.131Z",
+        "updated_at": "2023-08-04T01:28:13.164Z",
+        "job_id": "ecf67fe5-1446-4afb-af83-3bb1d89589ca"
+      },
+      {
+        "id": "4658721c-2117-45b8-81d9-0ca8ac5a4dab",
+        "coordinates": "48.8566° N, 2.3522° E",
+        "elevation": 72506,
+        "soil_profile": "Clay soil with good nutrient retention",
+        "penetrometer_results": 38199,
+        "created_at": "2023-08-03T11:24:19.096Z",
+        "updated_at": "2023-08-03T06:16:07.450Z",
+        "job_id": "c7c8e936-bb9c-4108-ab77-05053a163090"
+      },
+      {
+        "id": "9bf1b2bc-5ab4-4eb4-becc-68a420e690e7",
+        "coordinates": "34.0522° N, 118.2437° W",
+        "elevation": 45629,
+        "soil_profile": "Peat soil with high organic matter content",
+        "penetrometer_results": 36681,
+        "created_at": "2023-08-03T07:12:29.369Z",
+        "updated_at": "2023-08-03T09:27:54.859Z",
+        "job_id": "ecf67fe5-1446-4afb-af83-3bb1d89589ca"
+      },
+      {
+        "id": "132dd594-ca05-4ec6-aeaa-50a27c8119eb",
+        "coordinates": "37.7749° N, 122.4194° W",
+        "elevation": 48961,
+        "soil_profile": "Chalky soil with alkaline pH",
+        "penetrometer_results": 93423,
+        "created_at": "2023-08-03T18:20:28.484Z",
+        "updated_at": "2023-08-03T08:05:09.244Z",
+        "job_id": "c7c8e936-bb9c-4108-ab77-05053a163090"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "40560237-fb0d-431a-ad5e-e9da1c9e42e5",
+        "amount": 70834,
+        "status": "Paid",
+        "created_at": "2023-08-03T10:15:46.486Z",
+        "updated_at": "2023-08-03T11:58:09.349Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "94d44258-6dcb-449d-b2a3-b0787bb58b36",
+        "amount": 20962,
+        "status": "Pending",
+        "created_at": "2023-08-03T14:12:08.799Z",
+        "updated_at": "2023-08-03T11:50:50.934Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "74fea154-12c9-464f-9860-4c89dcfb0e9b",
+        "amount": 60947,
+        "status": "Overdue",
+        "created_at": "2023-08-04T02:35:35.668Z",
+        "updated_at": "2023-08-03T17:35:40.486Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "b18833d9-5703-4de3-8ef8-99f4cee8efee",
+        "amount": 62051,
+        "status": "Cancelled",
+        "created_at": "2023-08-03T14:41:44.712Z",
+        "updated_at": "2023-08-03T19:52:39.595Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      },
+      {
+        "id": "06a42627-ba98-4f0c-8f2a-fb7ae3127c15",
+        "amount": 19893,
+        "status": "Refunded",
+        "created_at": "2023-08-03T13:09:44.758Z",
+        "updated_at": "2023-08-03T14:41:18.317Z",
+        "company_id": "main_entity_pk",
+        "finance_manager_id": "user_entity_pk"
+      }
+    ]
+  }
+]
